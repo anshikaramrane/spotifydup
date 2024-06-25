@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.sidebar{
+    width: 300px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    padding: 10px;
+    background-color: black;
+    
+}
+.sidebar-nav{
+    background-color: rgb(28, 26, 26);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.sidebar-nav ul{
+    list-style: none;
+}
+.sidebar-nav ul li{
+    padding: 20px 30px;
+}
+.sidebar-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-weight: 700;
+}
+.sidebar-nav ul li a i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+.library::after {
+    content: " →";
+ float: inline-end;
+ font-size: 20px;
+ font-weight: 700;
+}
+
+.createplaylist
+{   background-color: rgb(54, 51, 51);
+    padding: 20px 10px; 
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+}
+
+.sidescroll{
+  
+    border-radius: 10px;
+   margin-left: -25px;
+   margin-bottom: 5;
+   height:300px;
+   overflow-y: auto;
+   
+}
+.sidescroll::-webkit-scrollbar{
+    background: transparent;
+}
+.sidescroll h4{
+    color: white;
+    font-weight: 650;
+    font-size: medium;
+    
+}
+.sidescroll p{
+    color: white;
+    font-size: smaller;
+}
+
+.createplaylist button
+{
+   border-radius: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 600;
+   font-size:medium;
+   margin-left: 10px;
+}
+.container{
+    display:flex;
+    
+}
+.container .mainsection{
+    margin-left: 230px;
+    height: 600px;
+    width:700px;
+    background-image: linear-gradient(rgb(10, 55, 10), black);
+    padding: 10px ;
+    border-radius: 10px;
+    margin-top: 10px;
+    position:relative;
+   
+}
+.container .mainsection h2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.container .mainsection .navbar .prev-btn button{
+   border: none;
+   background: transparent;
+   padding-left: 20px;
+   font-size: large;
+  
+}
+.container .mainsection .navbar .prev-btn button i{
+    color: white;
+}
+.container .mainsection .navbar .loginbutton button{
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.container .mainsection .all button{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    margin-left: 15px;
+
+}
+.container .mainsection .navbar .loginbutton .bell{
+    background: transparent;
+    border: 10px;
+    color: white;
+}
+.container .mainsection .dailymix{
+    display: grid;
+}
+.container .mainsection .dailymix img{
+    size: 150px;
+}
+.rightside{
+    background-color: rgb(26, 25, 25);
+    width: 275px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right:-63px;
+    height: 550px;
+}
+.rightside .heading
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+    font-weight: 650;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+}
+.rightside .heading .dots{
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: 85px;
+    font-size:large;
+    
+}
+.rightside .heading .cross {
+    background: transparent;
+}
+.rightside img{
+    margin-top: 10px;
+    margin-left: 7px;
+    width: 250px;
+   
+}
+.rightside .songname{
+    display: grid;
+    
+
+}
+.rightside .songname .song{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: xx-large;
+    font-weight: 750;
+    margin-left: 10px;
+}
+.rightside .songname a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+
+}
+.rightside .songname a:hover{
+    text-decoration: underline;
+    
+}
+.rightside .artist{
+    background-color: rgb(44, 40, 40);
+    border-radius: 10px;
+    height: 450px;
+   
+}
+.container .rightside {
+    overflow-y:auto;
+}
+.container .rightside::-webkit-scrollbar{
+    background: transparent;
+}
+.rightside .artist img{
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.rightside .artist a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: large
+}
+.rightside .artist a:hover{
+    text-decoration: underline;
+}
+.rightside .artist button{
+    margin-left: 85px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.rightside .artist .description{
+    color: white;
+    margin-left: 10px;
+
+}
